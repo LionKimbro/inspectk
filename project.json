@@ -1,0 +1,18 @@
+{
+  "ID": {
+    "GUID": "8bfdac5f-32bf-4ce3-acdb-6a174bc4128c",
+    "TAGURI": "lionkimbro@gmail.com,2025-03-21:project:inspectk",
+    "NAME": "inspectk"
+  },
+  "INFO": {
+    "TITLE": "Inspectk",
+    "DESC": "import inspectk; inspectk.go() -- to examine variables on the call stack with a tk window",
+    "TAGS": ["inspector", "inspect", "variable", "variables", "tk", "liontk"]
+  },
+  "TIMESTAMPS": {
+    "START_TEXT": "2025-03-21",
+    "START": 1742550528,
+    "CREATED": 1742550528
+  }
+}
+

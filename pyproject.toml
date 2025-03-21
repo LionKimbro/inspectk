@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inspectk"
+version = "0.9.0"
+
+authors = [
+  { name="Lion Kimbro", email="lionkimbro@gmail.com" },
+]
+
+description = "import inspectk; inspectk.go() -- to examine variables on the call stack with a tk window"
+
+readme = "README.txt"
+
+requires-python = ">=3.7"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "liontk"
+]
+
+[tools.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+"Homepage" = "https://github.com/LionKimbro/inspectk"
+"Bug Tracker" = "https://github.com/LionKimbro/inspectk/issues"
+
