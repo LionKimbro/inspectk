@@ -21,7 +21,7 @@ You’ll get an interactive window showing local and global variables, help for 
 ## 📸 Screenshot
 
 <p align="center">
-  <img src="src/screenshot.png" alt="Inspectk screenshot" width="600"/>
+  <img src="https://github.com/LionKimbro/inspectk/blob/main/img/screenshot.png?raw=true" alt="Inspectk screenshot" width="600"/>
 </p>
 
 ## 📦 Installation

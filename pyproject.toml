@@ -5,6 +5,8 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "inspectk"
 version = "0.9.0"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE"]
 
 authors = [
   { name="Lion Kimbro", email="lionkimbro@gmail.com" },
@@ -12,13 +14,12 @@ authors = [
 
 description = "import inspectk; inspectk.go() -- to examine variables on the call stack with a tk window"
 
-readme = "README.txt"
+readme = { file = "README.md", content-type = "text/markdown" }
 
 requires-python = ">=3.7"
 
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     "Operating System :: OS Independent",
 ]
 
@@ -26,7 +27,7 @@ dependencies = [
     "liontk"
 ]
 
-[tools.setuptools]
+[tool.setuptools]
 include-package-data = true
 
 [tool.setuptools.packages.find]
